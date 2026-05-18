@@ -145,6 +145,8 @@ class _CatalogScreenState extends State<CatalogScreen> {
               matchRating &&
               matchSearch &&
               matchPrice;
+
+          ///
         }).toList()..sort(
           (a, b) => switch (_sort) {
             _Sort.priceAsc => a.amount.compareTo(b.amount),
