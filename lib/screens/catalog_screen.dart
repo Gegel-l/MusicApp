@@ -132,7 +132,7 @@ class _CatalogScreenState extends State<CatalogScreen> {
           final matchTag = _tag == null || p.tag == _tag;
           final matchRating = !_highRating || p.rating >= 4.0;
           final matchSearch =
-              _search.isEmpty ||
+              _search.isEmpty || //
               p.name.toLowerCase().contains(_search.toLowerCase()) ||
               p.category.toLowerCase().contains(_search.toLowerCase()) ||
               p.tag.toLowerCase().contains(_search.toLowerCase()) ||
