@@ -138,7 +138,7 @@ class _CatalogScreenState extends State<CatalogScreen> {
               p.tag.toLowerCase().contains(_search.toLowerCase()) ||
               p.description.toLowerCase().contains(_search.toLowerCase());
           final matchPrice =
-              _priceRange == null ||
+              _priceRange == null || //
               (p.amount >= _priceRange!.start && p.amount <= _priceRange!.end);
           return matchCat &&
               matchTag &&
