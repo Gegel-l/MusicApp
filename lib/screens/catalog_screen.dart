@@ -173,7 +173,7 @@ class _CatalogScreenState extends State<CatalogScreen> {
     }
     final filtered = _filtered;
     final visible = filtered.take(_visibleCount).toList();
-
+    ////
     return Scaffold(
       floatingActionButton: AnimatedSlide(
         duration: const Duration(milliseconds: 250),
