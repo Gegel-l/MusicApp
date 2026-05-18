@@ -151,6 +151,8 @@ class _CatalogScreenState extends State<CatalogScreen> {
           (a, b) => switch (_sort) {
             _Sort.priceAsc => a.amount.compareTo(b.amount),
             _Sort.priceDesc => b.amount.compareTo(a.amount),
+
+            ///
             _Sort.ratingDesc => b.rating.compareTo(a.rating),
             _Sort.newest => b.id.compareTo(a.id),
             _Sort.none => 0,
