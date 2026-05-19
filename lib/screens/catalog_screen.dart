@@ -195,6 +195,7 @@ class _CatalogScreenState extends State<CatalogScreen> {
         ),
       ),
       body: LayoutBuilder(
+        ////
         builder: (context, constraints) => Stack(
           children: [
             CustomScrollView(
