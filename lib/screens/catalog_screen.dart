@@ -185,6 +185,8 @@ class _CatalogScreenState extends State<CatalogScreen> {
             onPressed: () => _scrollController.animateTo(
               0,
               duration: const Duration(milliseconds: 400),
+
+              ///
               curve: Curves.easeOut,
             ),
             tooltip: 'Наверх',
