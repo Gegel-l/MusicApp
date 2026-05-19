@@ -1,3 +1,2 @@
-# flutter_application_1
-
-A new Flutter project.
+# Магазин Музыкальных Инструментов
+Flutter, Firebase, Provider
