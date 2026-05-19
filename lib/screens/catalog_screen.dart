@@ -183,7 +183,7 @@ class _CatalogScreenState extends State<CatalogScreen> {
           opacity: _showScrollTop ? 1 : 0,
           child: FloatingActionButton.small(
             onPressed: () => _scrollController.animateTo(
-              0,
+              0, //
               duration: const Duration(milliseconds: 400),
 
               ///
