@@ -198,7 +198,7 @@ class _CatalogScreenState extends State<CatalogScreen> {
         builder: (context, constraints) => Stack(
           children: [
             CustomScrollView(
-              controller: _scrollController,
+              controller: _scrollController, ////////
               slivers: [
                 // Кастомный header
                 SliverToBoxAdapter(
