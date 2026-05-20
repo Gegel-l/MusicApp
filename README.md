@@ -1,8 +1,6 @@
-Вот тебе готовый `README.md` под твой проект (Flutter + Firebase + Provider, магазин музыкальных инструментов). Можно просто скопировать в корень репозитория.
 
----
 
-# 🎸 Music Instruments Shop (Flutter App)
+# 🎸 MusicFIR (Flutter App)
 
 Мобильное приложение интернет-магазина музыкальных инструментов, разработанное на Flutter с использованием Firebase и Provider.
 
