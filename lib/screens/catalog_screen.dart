@@ -186,7 +186,7 @@ class _CatalogScreenState extends State<CatalogScreen> {
               0, //
               duration: const Duration(milliseconds: 400),
 
-              ///
+              //////
               curve: Curves.easeOut,
             ),
             tooltip: 'Наверх',
